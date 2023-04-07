@@ -1,0 +1,10 @@
+dash
+pandas
+matplotlib==3.5.1
+gunicorn
+dash-bootstrap-components= 
+dash_bootstrap_templates 
+whitenoise==5.2.0
+nsetools
+requests
+pymongo[srv]

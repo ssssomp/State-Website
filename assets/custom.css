@@ -1,0 +1,140 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- DIVs
+- Banner
+- Dropdown
+- Tabs
+- Indicators
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --bg-color: #22252b;
+  --font: Roboto Slab;
+  --font-color-light: black;
+  --font-color-dark: #b2b2b2;
+  --bg-color-light: white;
+  --bg-color-dark: #1a1c23;
+  --color-success: limegreen;
+  --color-failure: red;
+  --tab-bg-color: #1a1c23;
+  --banner-bg-color: white;
+  --banner-text-color: black;
+  --border-bottom: 2px solid brown;
+}
+
+::placeholder {
+  text-align: center;
+  justify-content: center;
+  font: 14px var(--font)
+}
+
+/* body { */
+  /* background-color: var(--bg-color-dark); */
+  /* color: var(--font-color-dark); */
+  /* height: 100vh; */
+  /* margin: 0; */
+/* } */
+
+/*------------------------- DIVs ------------------------------------*/
+
+#main_div {
+  width: 100%;
+  /* height: 100vh; */
+  margin: 0px 0px 5vh 0px;
+  font: 20px Roboto Slab !important;
+  /* overflow-y: hidden; */
+}
+/* #second_div {
+  /* background-color: var(--bg-color-dark); */
+  /* box-sizing: border-box; */
+  /* margin: 0 2vw */
+/* } */ 
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/*------------------------- BANNER ------------------------------------*/
+
+.banner {
+  /* height: 8vh; */
+  align-items: center;
+  background-color: #8EE4AF !important;
+}
+
+.banner Img {
+  height: 8vh;
+  width: 5vw;
+  /* min-height: 100px; */
+  min-width: 100px;
+  object-fit: fill;
+}
+
+.banner .container {
+  margin: 0.5vw 0vw;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: inline;
+  box-sizing: border-box;
+  /* justify-content: flex-start !important; */
+}
+
+.banner .logo {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.popover {
+  max-width: auto !important;
+  margin-left: 0
+}
+
+#header_tabs_1 {
+  background-color: green;
+  height: 5vh !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+#header_tabs_1 .col .row {
+  margin: 0;
+}
+
+/* #header_tabs_1:hover {
+  background-color: #fa5c20 ;
+} */
+/*------------------------- CAROUSEL ------------------------------------*/
+
+
+.carousel Img {
+  object-fit: fill;
+  height: 75vh;
+  max-height: 512px;
+  /* transition: ease-in; */
+
+}
+
+
+
+
+/*------------------------- TABS ------------------------------------*/
+
+#header_tabs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.tab_name {
+  color: whitesmoke !important;
+}
+
+.tab_name:hover {
+  color: white !important;
+  background-color: #fa5c20;
+}
